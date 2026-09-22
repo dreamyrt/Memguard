@@ -1,5 +1,3 @@
-
-
 # 🛡️ MemGuard — Keyless C/C++ Memory-Safety SAST Analyzer
 
 <p align="center">
@@ -35,6 +33,20 @@
 - 🛡️ **Автоматичні рекомендації (Remediation Patches):** Для кожної знайденої вразливості сканер генерує фрагмент виправленого безпечного коду (наприклад, заміну `strcpy` на `strncpy` з нуль-термінацією).
 - ⚡ **Миттєвий локальний рушій:** Працює повністю офлайн завдяки FastAPI та оптимізованим регулярним виразам / контекстним правилам.
 - 🎨 **Сучасний SOC Dashboard:** Інтерактивний веб-інтерфейс із вбудованими зразками уразливого коду для тестування в 1 клік.
+
+## 📸 Демонстрація
+
+### 🖥️ Web UI
+
+<p align="center">
+  <img src="screenshots/img.png" alt="MemGuard Web UI" width="900">
+</p>
+
+### 🔍 Результати аналізу
+
+<p align="center">
+  <img src="screenshots/img_1.png" alt="MemGuard Scan Results" width="900">
+</p>
 
 ---
 
